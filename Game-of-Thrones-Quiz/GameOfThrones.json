@@ -1,0 +1,120 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "game of thrones quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "i don't want to play",
+                        "quit",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "i don't know the answer of this question",
+                        "i don't know the answer",
+                        "i don't know",
+                        "don't know",
+                        "i don't know that",
+                        " don't know the answer",
+                        "i don't know this question",
+                        "dunno",
+                        "i don't know that one",
+                        "i don't know this one",
+                        "next question"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "surely it's {Answer}",
+                        "surely it would be {Answer}",
+                        "i am quite confident in this it would be {Answer} ",
+                        "definitely it would be {Answer}",
+                        "definitely it's {Answer}",
+                        "i am sure it's {Answer}",
+                        "for sure it's {Answer}",
+                        "is {Answer}",
+                        "may be {Answer}",
+                        "i think it's {Answer}",
+                        "the answer is {Answer}",
+                        "my answer is {Answer}",
+                        "is it {Answer}",
+                        "{Answer} is my answer",
+                        "{Answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "could you please repeat the last question",
+                        "repeat"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
