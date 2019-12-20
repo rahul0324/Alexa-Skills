@@ -1,0 +1,122 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "narcos quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "quit",
+                        "stop",
+                        "i don't want to play"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "next question please",
+                        "next question",
+                        "i don't know this one",
+                        "i don't know that one",
+                        "dunno",
+                        "i don't know this question",
+                        " don't know the answer",
+                        "i don't know that",
+                        "don't know",
+                        "i don't know",
+                        "i don't know the answer",
+                        "i don't know the answer of this question"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "may be it's {Answer}",
+                        "{Answer}",
+                        "{Answer} is my answer",
+                        "is it {Answer}",
+                        "my answer is {Answer}",
+                        "the answer is {Answer}",
+                        "i think it's {Answer}",
+                        "may be {Answer}",
+                        "is {Answer}",
+                        "for sure it's {Answer}",
+                        "i am sure it's {Answer}",
+                        "definitely it's {Answer}",
+                        "definitely it would be {Answer}",
+                        "i am quite confident in this it would be {Answer}",
+                        "surely it would be {Answer}",
+                        "surely it's {Answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "could you please repeat the last question",
+                        "repeat"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
