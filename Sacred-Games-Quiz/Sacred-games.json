@@ -1,0 +1,111 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "sacred games",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "नहीं खेलना है",
+                        "रद्द करो",
+                        "cancel करो"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "बंद ",
+                        "बंद करो",
+                        "मुझे नहीं खेलना है",
+                        "मैं खेलना नहीं चाहता हु",
+                        "quit करो",
+                        "stop करो",
+                        "रुकें"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "दूसरा question पूछो",
+                        "पता नहीं",
+                        "मुझे नहीं मालूम",
+                        "इसका जवाब पता नहीं है",
+                        "इसका answer पता नहीं है",
+                        "मैं इस सवाल का जवाब नहीं जानता",
+                        "मुझे जवाब नहीं पता",
+                        "मुझे नहीं पता",
+                        "मुझे नहीं पता है ",
+                        "answer नहीं पता",
+                        "जवाब नहीं पता",
+                        "मैं इस सवाल को नहीं जानता",
+                        "नहीं पता",
+                        "मुझे नहीं पता ये",
+                        "मैं यह नहीं जानता",
+                        "अगला सवाल ",
+                        "अगला सवाल please"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "शायद {Answer}",
+                        "मेरा आंसर {Answer} है ",
+                        "मुझे इस पर पूरा भरोसा है कि यह {Answer} होगा",
+                        "निश्चित रूप से यह {Answer} होगा",
+                        "निश्चित रूप से यह {Answer} है",
+                        "मुझे यकीन है कि यह {Answer} है",
+                        "यकीन है की यह {Answer} है",
+                        "{Answer} है",
+                        "{Answer} हो सकता है",
+                        "मुझे लगता है कि {Answer} है",
+                        "मुझे लगता है कि यह {Answer} है",
+                        "answer {Answer} है",
+                        "मेरा जवाब {Answer} है",
+                        "क्या यह {Answer} है",
+                        "{Answer} मेरा जवाब है",
+                        "{Answer}",
+                        "हो सकता है की {Answer} है",
+                        "शायद इसका answer {Answer} है",
+                        "शायद इसका जवाब {Answer} है"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "नहीं"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "क्या आप  last question फिर से बोल सकते हैं",
+                        "क्या आप  last question दोहरा सकते हैं",
+                        "repeat करो"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "हा"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
