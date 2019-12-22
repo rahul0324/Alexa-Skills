@@ -1,0 +1,113 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "मिर्ज़ापुर quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel करो",
+                        "रद्द करो",
+                        "नहीं खेलना है"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "quit",
+                        "stop",
+                        "stop करो",
+                        "quit करो",
+                        "मैं खेलना नहीं चाहता हु",
+                        "मुझे नहीं खेलना है",
+                        "बंद करो",
+                        "बंद "
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "अगला सवाल please",
+                        "अगला सवाल ",
+                        "मैं यह नहीं जानता",
+                        "मुझे नहीं पता ये",
+                        "नहीं पता",
+                        "मैं इस सवाल को नहीं जानता",
+                        "जवाब नहीं पता",
+                        "answer नहीं पता",
+                        "मुझे नहीं पता है ",
+                        "मुझे नहीं पता",
+                        "मुझे जवाब नहीं पता",
+                        "मैं इस सवाल का जवाब नहीं जानता",
+                        "इसका answer पता नहीं है",
+                        "इसका जवाब पता नहीं है",
+                        "मुझे नहीं मालूम",
+                        "पता नहीं",
+                        "दूसरा question पूछो"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "Answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "शायद इसका जवाब {Answer} है",
+                        "शायद इसका answer {Answer} है",
+                        "हो सकता है की {Answer} है",
+                        "{Answer}",
+                        "{Answer} मेरा जवाब है",
+                        "क्या यह {Answer} है",
+                        "मेरा जवाब {Answer} है",
+                        "answer {Answer} है",
+                        "मुझे लगता है कि यह {Answer} है",
+                        "मुझे लगता है कि {Answer} है",
+                        "{Answer} हो सकता है",
+                        "{Answer} है",
+                        "यकीन है की यह {Answer} है",
+                        "मुझे यकीन है कि यह {Answer} है",
+                        "निश्चित रूप से यह {Answer} है",
+                        "निश्चित रूप से यह {Answer} होगा",
+                        "मुझे इस पर पूरा भरोसा है कि यह {Answer} होगा",
+                        "मेरा आंसर {Answer} है ",
+                        "शायद {Answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "नहीं"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat करो",
+                        "क्या आप  last question दोहरा सकते हैं",
+                        "क्या आप  last question फिर से बोल सकते हैं"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "हाँ",
+                        "हा"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
